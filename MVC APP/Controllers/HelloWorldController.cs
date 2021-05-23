@@ -16,6 +16,11 @@ namespace WebApplication11.Controllers
         {
             return $"welcome {name}";
         }
+        
+            public string Info(string name,int age)
+        {
+            return $"welcome {name} your age is {age}";
+        }
 
     }
 }
